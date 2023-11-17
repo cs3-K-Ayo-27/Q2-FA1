@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2nd Quarter FA1</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Kathleen">
+        <meta name="keywords" content="HTML, CSS, Javascript">
+        <meta name="revised" content="11/17/2023">
+
+        <link rel="" href="" type="">
+    </head>
+    <body>
+        <a class = "uwulink" href = "#uwudiv">First Link</a>
+        <a class = "owolink" href = "#owodiv">Second Link</a>
+        <br><br>
+        <div id = "uwudiv">Div 1 is here</div>
+        <br>
+        <div id = "owodiv">Div 2 is here</div>
+
+        <style>
+            body {
+                font-size: 2.5em;
+                font-family: Tahoma;
+            }
+
+            .uwulink{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 255, 255);
+            }
+
+            .uwulink:hover{
+                color:rgb(145, 99, 134);
+                background-color: rgb(255, 204, 243);
+            }
+
+            .uwulink:active{
+                color: pink;
+                background-color: black;
+            }
+
+            .uwulink:visited{
+                color: rgb(145, 99, 134);
+                background-color: rgb(255, 204, 243);
+            }
+
+            .owolink{
+                text-decoration: none;
+                color: rgb(255, 102, 201);
+                background-color: rgb(255, 255, 255);
+            }
+
+            .owolink:hover{
+                color:rgb(247, 119, 189);
+                background-color: grey;
+            }
+
+            .owolink:active{
+                color: rgb(252, 252, 252);
+                background-color: rgb(255, 0, 140);
+            }
+
+            .owolink:visited{
+                color: rgb(174, 42, 184);
+                background-color: rgb(243, 152, 250);
+            }
+
+            div{
+                border: 2px solid black;
+                padding: 10px;
+                width: 200px;
+                height: 150px;
+            }
+
+            #uwudiv:target{
+                background-color: rgb(181, 224, 255);
+                color: rgb(31, 98, 145);
+            }
+
+            #owodiv:target{
+                border: 10px dotted green;
+                background-color: rgb(148, 221, 148);
+                color: rgb(88, 107, 80);
+            }
+        </style>
+    </body>
+</html>
